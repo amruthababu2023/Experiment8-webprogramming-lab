@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Registration Form</h2>
+
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="text" id="email" placeholder="Enter Email">
+        <input type="password" id="password" placeholder="Enter Password">
+
+        <p id="error"></p>
+
+        <button onclick="register()">Register</button>
+
+        <hr>
+
+        <h2>Login Form</h2>
+
+        <input type="text" id="loginEmail" placeholder="Enter Email">
+        <input type="password" id="loginPassword" placeholder="Enter Password">
+
+        <p id="loginError"></p>
+
+        <button onclick="login()">Login</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
